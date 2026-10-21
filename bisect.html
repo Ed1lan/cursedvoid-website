@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="no-scrollbar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Play · The Curse of the Void</title>
+  <link rel="icon" href="Assets/Images/Icon_Head_Transparent.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="back" id="back" href="index.html">&larr; GO BACK</a>
+  <span class="ad-label ad-label--corner">Ad · Werbung</span>
+  <nav class="legal-link" aria-label="Legal"><a href="https://impressum.kaupenjoe.net/" target="_blank" rel="noopener">Impressum</a> · <a href="legal.html">Privacy</a></nav>
+
+  <main>
+    <a class="banner" id="banner" href="https://bisecthosting.com/CursedVoid" target="_blank" rel="noopener"
+       aria-label="Get 25% off your first month on BisectHosting with code CursedVoid">
+      <div class="banner__stage">
+        <img class="banner__character" src="Assets/Bisect/character.png" alt="">
+        <div class="banner__content">
+          <img class="banner__logo" src="Assets/Bisect/bisect_logo.png" alt="BisectHosting">
+          <p class="banner__title">Prove your<br>worth with<br>friends now!</p>
+          <img class="banner__code" src="Assets/Bisect/code.png" alt="Use code: CursedVoid">
+          <img class="banner__ticket" src="Assets/Bisect/discount_ticket.png" alt="25% off first month">
+        </div>
+      </div>
+    </a>
+  </main>
+
+  <script>
+    // Go back to the previous page of this site; otherwise follow the link home
+    document.getElementById("back").addEventListener("click", function (e) {
+      var fromSite = document.referrer && document.referrer.indexOf(location.origin) === 0;
+      if (fromSite && history.length > 1) {
+        e.preventDefault();
+        history.back();
+      }
+    });
+
+    // Light parallax: the character and the text move opposite to the cursor
+    var banner = document.getElementById("banner");
+    banner.addEventListener("mousemove", function (e) {
+      var r = banner.getBoundingClientRect();
+      banner.style.setProperty("--mx", ((e.clientX - r.left) / r.width - .5) * 2);
+      banner.style.setProperty("--my", ((e.clientY - r.top) / r.height - .5) * 2);
+    });
+    banner.addEventListener("mouseleave", function () {
+      banner.style.setProperty("--mx", 0);
+      banner.style.setProperty("--my", 0);
+    });
+
+    // Ticket and code animations: on hover and at random moments
+    var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var animated = [
+      document.querySelector(".banner__ticket"),
+      document.querySelector(".banner__code")
+    ];
+
+    function play(el) {
+      if (reduceMotion || el.classList.contains("is-playing")) return;
+      el.classList.add("is-playing");
+    }
+
+    animated.forEach(function (el) {
+      el.addEventListener("mouseenter", function () { play(el); });
+      el.addEventListener("animationend", function () { el.classList.remove("is-playing"); });
+    });
+
+    // Every 2.5-6 seconds one of them (at random) plays its animation
+    (function randomLoop() {
+      setTimeout(function () {
+        play(animated[Math.floor(Math.random() * animated.length)]);
+        randomLoop();
+      }, 2500 + Math.random() * 3500);
+    })();
+  </script>
+</body>
+</html>

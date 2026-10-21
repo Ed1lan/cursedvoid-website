@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" class="no-scrollbar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Curse of the Void</title>
+  <link rel="icon" href="Assets/Images/Icon_Head_Transparent.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="hero">
+    <div class="hero__visual">
+      <img class="hero__portal" src="Assets/Images/Icon_Void_Portal.png" alt="">
+      <img class="hero__head" src="Assets/Images/Icon_Head_Transparent.png" alt="The Curse of the Void">
+    </div>
+
+    <section class="hero__text">
+      <h1 class="hero__title">
+        <span class="line-1">The Curse of</span>
+        <span class="line-2">The Void</span>
+      </h1>
+
+      <p class="hero__desc">
+        A <span class="c-red">hardcore</span> Hytale SMP with your favourite creators.<br>
+        <span class="c-red">One</span> life. <span class="c-red">One</span> oportunity.<br>
+        <span class="c-magenta">Increasing difficulty</span> every week.<br>
+        Will they be worthy to <span class="c-red">survive</span>?
+      </p>
+
+      <p class="hero__count" id="alive-count">59/59 ALIVE</p>
+
+      <a class="btn-more" href="players.html">SEE MORE <span aria-hidden="true">&rarr;</span></a>
+    </section>
+
+    <button class="hero__hint" type="button" aria-label="Show more"><span>SCROLL</span><span aria-hidden="true">&darr;</span></button>
+  </main>
+
+  <nav class="legal-link" aria-label="Legal"><a href="https://impressum.kaupenjoe.net/" target="_blank" rel="noopener">Impressum</a> · <a href="legal.html">Privacy</a></nav>
+
+  <script src="js/home.js"></script>
+
+  <script>
+    // Update the alive counter from players.json (when it can be loaded)
+    fetch("players.json", { cache: "no-cache" })
+      .then(function (r) { return r.json(); })
+      .then(function (players) {
+        var alive = players.filter(function (p) { return !p.dead; }).length;
+        document.getElementById("alive-count").textContent = alive + "/" + players.length + " ALIVE";
+      })
+      .catch(function () { /* keep the default text */ });
+  </script>
+</body>
+</html>

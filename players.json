@@ -1,0 +1,790 @@
+[
+  {
+    "name": "Aemilius",
+    "player-icon": "Heads/aemilius-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Aemilius_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@mr.aemilius/live",
+      "x": "https://www.twitch.tv/mc__ivan"
+    }
+  },
+  {
+    "name": "August",
+    "player-icon": "Heads/August-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/August_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@AugustOffline/live",
+      "x": "https://x.com/AugustHytale"
+    }
+  },
+  {
+    "name": "Beatrix",
+    "player-icon": "Heads/Beatrix-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Beatrix_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@8eatrix/live",
+      "x": "https://x.com/Trix8ea"
+    }
+  },
+  {
+    "name": "BrokenMiniFridge",
+    "player-icon": "Heads/BrokenMiniFridge-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/BrokenMiniFridge_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@Brokenminifridge/live",
+      "x": "https://x.com/BrokenColdBox"
+    }
+  },
+  {
+    "name": "Cabe",
+    "player-icon": "Heads/Cabe-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Cabe_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@Cabeisgone/live",
+      "x": "https://x.com/Cabeisgone"
+    }
+  },
+  {
+    "name": "CanadianFlash",
+    "player-icon": "Heads/CanadianFlash-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/CanadianFlash_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@CanadianFlash/live",
+      "twitch": "https://www.twitch.tv/canadianflashyt",
+      "x": "https://x.com/flash_canadian"
+    }
+  },
+  {
+    "name": "Chayzur",
+    "player-icon": "Heads/Chayzur-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Chayzur_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@Chayzur/live",
+      "x": "https://x.com/Chayzur"
+    }
+  },
+  {
+    "name": "Cytrus",
+    "player-icon": "Heads/Cytrus-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Cytrus_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@cytrus88/live",
+      "twitch": "https://www.twitch.tv/cytrus88",
+      "x": "https://x.com/Cytrus88"
+    }
+  },
+  {
+    "name": "Dinch",
+    "player-icon": "Heads/dinch-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Dinch_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@dinchhh/live",
+      "x": "https://x.com/dinchhhh"
+    }
+  },
+  {
+    "name": "Draacoun",
+    "player-icon": "Heads/Draacoun-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Draacoun_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@Draacoun/live",
+      "x": "https://x.com/Draacoun",
+      "tiktok": "https://www.tiktok.com/@draacoun"
+    }
+  },
+  {
+    "name": "Dwarf",
+    "player-icon": "Heads/Dwarf-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Dwarf_Alive_Player.png",
+    "socials": {
+      "x": "https://x.com/JackGamesFTW"
+    }
+  },
+  {
+    "name": "Edilan",
+    "player-icon": "Heads/Edilan-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Edilan_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@edilan/live",
+      "twitch": "https://www.twitch.tv/edilan",
+      "x": "https://x.com/EdilanTV"
+    }
+  },
+  {
+    "name": "Emi",
+    "player-icon": "Heads/emi-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Emi_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@zymymar/live",
+      "twitch": "https://www.twitch.tv/zymymarblue",
+      "x": "https://x.com/zymymarhytl"
+    }
+  },
+  {
+    "name": "Farren",
+    "player-icon": "Heads/Farren-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Farren_Alive.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@FarrensTale/live",
+      "x": "https://x.com/Farrens_Tale"
+    }
+  },
+  {
+    "name": "FoxyCCA",
+    "player-icon": "Heads/FoxyCCA-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/FoxyCCA_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@FoxyCCA/live",
+      "x": "https://x.com/foxy_cca"
+    }
+  },
+  {
+    "name": "Gamelord",
+    "player-icon": "Heads/GameLord-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Gamelord_Alive_Player.png",
+    "socials": {
+      "youtube": "https://youtube.com/@gamelords_tale/live",
+      "x": "https://x.com/GameLord_64"
+    }
+  },
+  {
+    "name": "Gnormal",
+    "player-icon": "Heads/Gnormal-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Gnormal_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@gnormalll/live",
+      "twitch": "https://www.twitch.tv/gnormaluser",
+      "x": "https://x.com/GnormalUser"
+    }
+  },
+  {
+    "name": "Hawkon",
+    "player-icon": "Heads/Hawkon-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Hawkon_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@Hawkon/live",
+      "x": "https://x.com/_Hawkon"
+    }
+  },
+  {
+    "name": "Hugo",
+    "player-icon": "Heads/Hugo-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Hugo_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@hugotrork/live",
+      "twitch": "https://www.twitch.tv/HugoTrork",
+      "x": "https://x.com/hugotrork"
+    }
+  },
+  {
+    "name": "Hutz",
+    "player-icon": "Heads/Hutz-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Hutz_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@hutzhytale/live",
+      "x": "https://x.com/hutzhytale"
+    }
+  },
+  {
+    "name": "Hytro",
+    "player-icon": "Heads/Hytro-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Hytro_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@Hytro_X/live",
+      "twitch": "https://www.twitch.tv/hytrothex",
+      "x": "https://x.com/HytroX2"
+    }
+  },
+  {
+    "name": "Ikari",
+    "player-icon": "Heads/Ikari-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Ikari_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@Ikarichi/live",
+      "twitch": "https://www.twitch.tv/ikarifish",
+      "x": "https://x.com/ikarinokuni"
+    }
+  },
+  {
+    "name": "Kamicoco",
+    "player-icon": "Heads/Kamicoco-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Kamicoco_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@KamicocoHytale/live"
+    }
+  },
+  {
+    "name": "Kaupenjoe",
+    "player-icon": "Heads/Kaupenjoe-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Kaupenjoe_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@Kaupenjoe/live",
+      "twitch": "https://www.twitch.tv/kaupenjoe",
+      "x": "https://x.com/Kaupenjoe"
+    }
+  },
+  {
+    "name": "Kerp",
+    "player-icon": "Heads/Kerp-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Kerp_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@JustKerp/live",
+      "twitch": "https://www.twitch.tv/justkerp",
+      "x": "https://x.com/JustKerp"
+    }
+  },
+  {
+    "name": "Kweebec",
+    "player-icon": "Heads/kweebec-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Kweebec_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@kweebec/live",
+      "twitch": "https://www.twitch.tv/kweebeccorner",
+      "x": "https://x.com/KweebecCorner"
+    }
+  },
+  {
+    "name": "Lordimass",
+    "player-icon": "Heads/Lordimass-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Lordimass_Alive_Player.png",
+    "socials": {
+      "youtube": "https://youtube.com/@lordimass/live",
+      "twitch": "https://twitch.tv/lordimass",
+      "x": "https://x.com/lordimass"
+    }
+  },
+  {
+    "name": "Lucent",
+    "player-icon": "Heads/Lucent-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Lucent_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@LucentAzxiar/live",
+      "x": "https://x.com/LucentAzxiar"
+    }
+  },
+  {
+    "name": "Madcow",
+    "player-icon": "Heads/Madcow-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Madcow_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@MadcowTV/live",
+      "twitch": "https://www.twitch.tv/madc0wtv",
+      "x": "https://x.com/Madc0wTV",
+      "tiktok": "https://www.tiktok.com/@madc0wtv"
+    }
+  },
+  {
+    "name": "Matt",
+    "player-icon": "Heads/Matt-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Matt_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@MattHytale/live",
+      "x": "https://x.com/matthytale"
+    }
+  },
+  {
+    "name": "Mazeriio",
+    "player-icon": "Heads/Mazeriio-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Mazeriio_Alive_Player.png",
+    "socials": {
+      "youtube": "https://youtube.com/@Mazeriio/live",
+      "x": "https://x.com/Mazeriio"
+    }
+  },
+  {
+    "name": "MelodicalBuild",
+    "player-icon": "Heads/MelodicAlbuild-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/MelodicalBuild_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@melodicalbuild/live",
+      "twitch": "https://www.twitch.tv/melodicalbuild",
+      "x": "https://x.com/MelodicAlbuild"
+    }
+  },
+  {
+    "name": "Miyue",
+    "player-icon": "Heads/miyue-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Miyue_Alive_Player.png",
+    "full-image": true,
+    "socials": {
+      "twitch": "https://www.twitch.tv/itsmiyue",
+      "x": "https://x.com/itsmiyue"
+    }
+  },
+  {
+    "name": "Mosshorn",
+    "player-icon": "Heads/mosshorn-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Mosshorn_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@memetheew/live",
+      "twitch": "https://www.twitch.tv/memetheew",
+      "x": "https://x.com/mosshorn"
+    }
+  },
+  {
+    "name": "MrMarco2613",
+    "player-icon": "Heads/Mrmarco2613-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/MrMarco2613_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@mrmarco2613/live",
+      "x": "https://x.com/MMarco2613"
+    }
+  },
+  {
+    "name": "Myne",
+    "player-icon": "Heads/Myne-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Myne_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@not_myne",
+      "x": "https://x.com/not_mynes"
+    }
+  },
+  {
+    "name": "NandaPlay",
+    "player-icon": "Heads/NandaPlay-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/NandaPlay_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@NandaPlayHytale/live",
+      "x": "https://x.com/NandaPlay",
+      "instagram": "https://www.instagram.com/nandaplay"
+    }
+  },
+  {
+    "name": "Nerwi",
+    "player-icon": "Heads/Nerwi-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Nerwi_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@Nerwi-Hytale/live",
+      "x": "https://x.com/nerwi_"
+    }
+  },
+  {
+    "name": "Nitr0",
+    "player-icon": "Heads/NiTR0-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Nitr0_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@NiTRi0UX/live",
+      "twitch": "https://www.twitch.tv/nitri0ux"
+    }
+  },
+  {
+    "name": "Oatman5000",
+    "player-icon": "Heads/Oatman5000-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Oatman5000_Alive_Player.png",
+    "socials": {
+      "youtube": "https://youtube.com/@oatman5000/live",
+      "twitch": "https://www.twitch.tv/oatman5000",
+      "x": "https://x.com/oatman5000"
+    }
+  },
+  {
+    "name": "OhRisk",
+    "player-icon": "Heads/OhRisk-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/OhRisk_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@OhRiskTV/live",
+      "twitch": "https://www.twitch.tv/ohrisklive",
+      "x": "https://x.com/OhRiskTV"
+    }
+  },
+  {
+    "name": "Orex",
+    "player-icon": "Heads/Orex-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Orex_Alive_Player.png",
+    "socials": {
+      "youtube": "https://youtube.com/@orex888",
+      "x": "https://x.com/Orex_888"
+    }
+  },
+  {
+    "name": "Oscar",
+    "player-icon": "Heads/Oscar-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Oscar_Alive_Player.png",
+    "full-image": true,
+    "socials": {
+      "twitch": "https://www.twitch.tv/ogrpgmusic",
+      "x": "https://x.com/onpujam"
+    }
+  },
+  {
+    "name": "Owel",
+    "player-icon": "Heads/Owel-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Owel_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@OwelHytale/live",
+      "x": "https://x.com/oweloficial"
+    }
+  },
+  {
+    "name": "PacificByte",
+    "player-icon": "Heads/PacificByte-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/PacificByte_Alive_Player.png",
+    "socials": {
+      "x": "https://x.com/PacificKB"
+    }
+  },
+  {
+    "name": "Pixel",
+    "player-icon": "Heads/Pixel-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Pixel_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@ElRinconDeHytale/live",
+      "twitch": "https://www.twitch.tv/pixel86_",
+      "x": "https://x.com/NotPixel86",
+      "tiktok": "https://www.tiktok.com/@pixel86_"
+    }
+  },
+  {
+    "name": "Preston",
+    "player-icon": "Heads/Preston-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Preston_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@OrbisArchitect/live",
+      "x": "https://x.com/OrbisArchitect"
+    }
+  },
+  {
+    "name": "Rea",
+    "player-icon": "Heads/Rea-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Rea_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@Hy_Rea",
+      "x": "https://x.com/ReaToJa"
+    }
+  },
+  {
+    "name": "Reddoons",
+    "player-icon": "Heads/Reddoons-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Reddoons_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/c/reddoons",
+      "x": "https://x.com/reddoons",
+      "instagram": "https://www.instagram.com/reddoonsyt"
+    }
+  },
+  {
+    "name": "Redjagoon",
+    "player-icon": "Heads/RedJagoon-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Redjagoon_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@RedJagoon/live",
+      "x": "https://x.com/RedJagoon789"
+    }
+  },
+  {
+    "name": "Renlay",
+    "player-icon": "Heads/Renlay-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Renlay_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@Renlay/live",
+      "twitch": "https://www.twitch.tv/renlayrenee",
+      "x": "https://x.com/RenlayRenee",
+      "bluesky": "https://bsky.app/profile/renlay.bsky.social"
+    }
+  },
+  {
+    "name": "Riprod",
+    "player-icon": "Heads/Riprod-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Riprod_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@itsriprod/live",
+      "x": "https://x.com/ItsRiprod"
+    }
+  },
+  {
+    "name": "Rossiels",
+    "player-icon": "Heads/Rossiels-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Rossiels_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@Rossiels/live",
+      "x": "https://x.com/Rossiels_Loggia",
+      "instagram": "https://www.instagram.com/vt.loggiarossiels/",
+      "tiktok": "https://www.tiktok.com/@rossielsloggia"
+    }
+  },
+  {
+    "name": "Rrinkss",
+    "player-icon": "Heads/Rrinkss-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Rrinkss_Alive_Player.png",
+    "socials": {
+      "twitch": "https://www.twitch.tv/rrinkss",
+      "x": "https://x.com/Rrinkss_Sabaku",
+      "instagram": "https://www.instagram.com/rrinkss_vt",
+      "tiktok": "https://www.tiktok.com/@rrinkss"
+    }
+  },
+  {
+    "name": "Scarforges",
+    "player-icon": "Heads/ScarForges-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Scarforges_Alive.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@ScarForges/live",
+      "x": "https://x.com/ScarForges"
+    }
+  },
+  {
+    "name": "Silo",
+    "player-icon": "Heads/Silo-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/SiloMagma_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@SiloMagma/live",
+      "x": "https://x.com/SiloMagma"
+    }
+  },
+  {
+    "name": "Starky",
+    "player-icon": "Heads/Starky-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Starky_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/c/StarkyOficial",
+      "twitch": "https://www.twitch.tv/starkyoficial",
+      "x": "https://x.com/Starky_TV"
+    }
+  },
+  {
+    "name": "Stormy",
+    "player-icon": "Heads/Stormy_Headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Stormy_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@StormyHytale/live",
+      "x": "https://x.com/MetalFolf"
+    }
+  },
+  {
+    "name": "Taf",
+    "player-icon": "Heads/Taf-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Taf_Alive_Player.png",
+    "socials": {
+      "twitch": "https://www.twitch.tv/tafthepenguin",
+      "x": "https://x.com/Taf_The_Penguin"
+    }
+  },
+  {
+    "name": "CursdBirth",
+    "player-icon": "Heads/TheCursd-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Cursdbirth_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@CursdBirth/live",
+      "twitch": "https://www.twitch.tv/cursdbirth",
+      "X": "https://x.com/CursdBirth",
+      "tiktok": "https://www.tiktok.com/@cursdbirth"
+    }
+  },
+  {
+    "name": "TheDragonFox",
+    "player-icon": "Heads/TheDragonFox-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/TheDragonFox_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@TheDragonFoxYT/live",
+      "x": "https://x.com/TheDragonFoxYT"
+    }
+  },
+  {
+    "name": "Xspree",
+    "player-icon": "Heads/Xspree-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Xspree_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/channel/UCFbspKx1vSB9kGCYH_Ehq5Q/live",
+      "x": "https://x.com/Xspree28",
+      "tiktok": "https://www.tiktok.com/@Xspree28",
+      "instagram": "https://www.instagram.com/xspree28"
+    }
+  },
+  {
+    "name": "Yoban",
+    "player-icon": "Heads/Yoban-headshot.png",
+    "dead": false,
+    "death-clip": "",
+    "death-text": "",
+    "player-image": "AliveImage/Yoban_Alive_Player.png",
+    "socials": {
+      "youtube": "https://www.youtube.com/@Yoban"
+    }
+  }
+]
