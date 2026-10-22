@@ -529,17 +529,20 @@ img { display: block; max-width: 100%; }
 
 /* The X is drawn with two lines, so it is always centered (the × glyph sat low) */
 .overlay__close,
-.changelog__close { display: grid; place-items: center; padding: 0; }
+.changelog__close { padding: 0; }
 .overlay__close::before,
 .overlay__close::after,
 .changelog__close::before,
 .changelog__close::after {
   content: "";
-  grid-area: 1 / 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
   width: 40%;
   height: 3px;
   border-radius: 2px;
   background: currentColor;
+  translate: -50% -50%;
   rotate: 45deg;
 }
 .overlay__close::after,
