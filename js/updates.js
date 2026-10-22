@@ -1,11 +1,11 @@
 var grid = document.getElementById("curses");
 var changelog = document.getElementById("changelog");
+var panel = changelog.querySelector(".changelog__panel");
 var clNumeral = document.getElementById("cl-numeral");
 var clName = document.getElementById("cl-name");
+var clDate = document.getElementById("cl-date");
 var clSummary = document.getElementById("cl-summary");
-var clVersions = document.getElementById("cl-versions");
-
-var curses = [];
+var clBody = document.getElementById("cl-body");
 
 function roman(n) {
   var numerals = [[10, "X"], [9, "IX"], [5, "V"], [4, "IV"], [1, "I"]];
@@ -16,11 +16,11 @@ function roman(n) {
   return out;
 }
 
-function formatDate(value) {
+function formatDate(value, month) {
   if (!value) return "";
   var date = new Date(value);
   if (isNaN(date)) return "";
-  return date.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
+  return date.toLocaleDateString("en-GB", { day: "numeric", month: month || "short", year: "numeric" });
 }
 
 function el(tag, className, text) {
@@ -30,7 +30,15 @@ function el(tag, className, text) {
   return node;
 }
 
-function renderGrid() {
+function image(src, alt) {
+  var img = el("img", "changelog__image");
+  img.src = src;
+  img.alt = alt || "";
+  img.loading = "lazy";
+  return img;
+}
+
+function renderGrid(curses) {
   grid.innerHTML = "";
 
   curses.forEach(function (curse) {
@@ -41,7 +49,7 @@ function renderGrid() {
       card.addEventListener("click", function () { openCurse(curse); });
     } else {
       card = el("div", "curse curse--locked");
-      card.setAttribute("aria-label", "Curse " + roman(curse.order) + ", locked");
+      card.setAttribute("aria-label", "Curse " + roman(curse.order) + ", coming soon");
     }
 
     card.appendChild(el("span", "curse__numeral", roman(curse.order)));
@@ -53,21 +61,20 @@ function renderGrid() {
       var meta = latest ? "v" + latest.version + " · " + formatDate(latest.date || curse.date) : formatDate(curse.date);
       card.appendChild(el("span", "curse__meta", meta + "  →"));
     } else {
-      card.appendChild(el("span", "curse__lock", "Locked"));
+      card.appendChild(el("span", "curse__lock", "Coming soon"));
     }
     grid.appendChild(card);
   });
 }
 
 function renderVersion(version) {
-  var block = el("article", "version");
-  var head = el("header", "version__head");
-  head.appendChild(el("span", "version__number", "v" + version.version));
-  if (version.title) head.appendChild(el("span", "version__title", version.title));
-  if (version.date) head.appendChild(el("time", "version__date", formatDate(version.date)));
-  block.appendChild(head);
-
-  if (version.notes) block.appendChild(el("p", "version__notes", version.notes));
+  var section = el("section", "version");
+  var heading = el("h3", "version__head");
+  heading.appendChild(el("span", "version__number", "Version " + version.version));
+  if (version.title) heading.appendChild(el("span", "version__title", version.title));
+  section.appendChild(heading);
+  if (version.date) section.appendChild(el("time", "version__date", formatDate(version.date, "long")));
+  if (version.notes) section.appendChild(el("p", "version__notes", version.notes));
 
   var list = el("ul", "version__changes");
   version.changes.forEach(function (change) {
@@ -79,23 +86,41 @@ function renderVersion(version) {
       change.details.forEach(function (d) { details.appendChild(el("li", "", d)); });
       text.appendChild(details);
     }
+    (change.images || []).forEach(function (src) { text.appendChild(image(src, change.text)); });
     item.appendChild(text);
     list.appendChild(item);
   });
-  block.appendChild(list);
-  return block;
+  section.appendChild(list);
+  return section;
+}
+
+function renderDownload(curse) {
+  var box = el("div", "download");
+  var link = el("a", "download__button", "DOWNLOAD THE MOD →");
+  link.href = curse.download.url;
+  link.target = "_blank";
+  link.rel = "noopener";
+  box.appendChild(link);
+  box.appendChild(el("p", "download__note", "Curse of " + curse.name + " · available on CurseForge"));
+  return box;
 }
 
 function openCurse(curse) {
   clNumeral.textContent = "Curse " + roman(curse.order);
   clName.textContent = curse.name;
+  clDate.textContent = curse.date ? "Released " + formatDate(curse.date, "long") : "";
+  clDate.hidden = !curse.date;
   clSummary.textContent = curse.summary;
   clSummary.hidden = !curse.summary;
-  clVersions.innerHTML = "";
-  if (curse.versions.length) curse.versions.forEach(function (v) { clVersions.appendChild(renderVersion(v)); });
-  else clVersions.appendChild(el("p", "version__notes", "No changes published yet."));
 
-  changelog.querySelector(".changelog__panel").scrollTop = 0;
+  clBody.innerHTML = "";
+  if (curse.cover) clBody.appendChild(image(curse.cover, curse.name));
+  if (curse.versions.length) curse.versions.forEach(function (v) { clBody.appendChild(renderVersion(v)); });
+  else clBody.appendChild(el("p", "version__notes", "No changes published yet."));
+  // Mod download (only present once it has been released)
+  if (curse.download && curse.download.url) clBody.appendChild(renderDownload(curse));
+
+  panel.scrollTop = 0;
   changelog.setAttribute("aria-hidden", "false");
   document.body.classList.add("no-scroll");
   void changelog.offsetWidth;
@@ -125,8 +150,8 @@ fetch("updates.json", { cache: "no-cache" })
     return r.json();
   })
   .then(function (data) {
-    curses = data.curses.slice().sort(function (a, b) { return a.order - b.order; });
-    renderGrid();
+    var curses = data.curses.slice().sort(function (a, b) { return a.order - b.order; });
+    renderGrid(curses);
     // Open the curse named in the URL (e.g. updates.html#twilight)
     var id = location.hash.slice(1);
     var target = curses.filter(function (c) { return c.released && c.id === id; })[0];
