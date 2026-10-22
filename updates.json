@@ -1,0 +1,48 @@
+{
+  "curses": [
+    {
+      "order": 1,
+      "released": false
+    },
+    {
+      "order": 2,
+      "released": false
+    },
+    {
+      "order": 3,
+      "released": false
+    },
+    {
+      "order": 4,
+      "released": false
+    },
+    {
+      "order": 5,
+      "released": false
+    },
+    {
+      "order": 6,
+      "released": false
+    },
+    {
+      "order": 7,
+      "released": false
+    },
+    {
+      "order": 8,
+      "released": false
+    },
+    {
+      "order": 9,
+      "released": false
+    },
+    {
+      "order": 10,
+      "released": false
+    },
+    {
+      "order": 11,
+      "released": false
+    }
+  ]
+}

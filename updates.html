@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Updates · The Curse of the Void</title>
+  <link rel="icon" href="Assets/Images/Icon_Head_Transparent.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <a class="logo" href="index.html">
+        <span class="logo-line">The Curse of</span>
+        <span class="logo-line">the Void</span>
+      </a>
+      <nav class="nav">
+        <a href="players.html">PLAYERS</a>
+        <a href="updates.html" class="is-active">UPDATES</a>
+        <a href="bisect.html">PLAY</a>
+      </nav>
+    </header>
+
+    <main class="curses" id="curses"></main>
+
+    <footer class="site-footer">
+      <a href="bisect.html">
+        <span class="ad-label">Ad · Werbung</span>
+        Powered by <b>BisectHosting</b> · code <b>CursedVoid</b>
+        <span class="promo"><b>25% OFF</b><span>FIRST MONTH</span></span>
+      </a>
+      <nav class="legal-link" aria-label="Legal"><a href="https://impressum.kaupenjoe.net/" target="_blank" rel="noopener">Impressum</a> · <a href="legal.html">Privacy</a></nav>
+    </footer>
+  </div>
+
+  <!-- Changelog of one curse (opens over the page) -->
+  <div class="changelog" id="changelog" aria-hidden="true">
+    <div class="changelog__backdrop"></div>
+    <section class="changelog__panel" role="dialog" aria-modal="true" aria-labelledby="cl-name">
+      <button class="changelog__close" type="button" aria-label="Close">&times;</button>
+      <p class="changelog__numeral" id="cl-numeral"></p>
+      <h2 class="changelog__name" id="cl-name"></h2>
+      <p class="changelog__summary" id="cl-summary"></p>
+      <div class="changelog__versions" id="cl-versions"></div>
+    </section>
+  </div>
+
+  <script src="js/updates.js?v=2"></script>
+</body>
+</html>
