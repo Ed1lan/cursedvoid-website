@@ -873,6 +873,23 @@ button.curse:hover .curse__meta { color: var(--magenta); opacity: 1; }
 .change--fixed .change__type { background: rgba(79, 130, 200, .22); color: #8fb4ea; }
 .change--removed .change__type { background: rgba(232, 65, 63, .2); color: #f07a78; }
 .change__details { margin: .4rem 0 0; padding-left: 1.1rem; opacity: .8; }
+
+/* Group of related changes under one heading */
+.change-group {
+  margin-top: .6rem;
+  padding: 1rem 1.2rem 1.1rem;
+  border-left: 3px solid var(--magenta);
+  border-radius: 0 10px 10px 0;
+  background: rgba(255, 255, 255, .03);
+}
+.change-group__title {
+  margin: 0 0 .8rem;
+  color: var(--magenta);
+  font-size: 1.05rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.change-group__changes { list-style: none; margin: 0; padding: 0; display: grid; gap: .7rem; }
 .change__details li + li { margin-top: .2rem; }
 
 @media (max-width: 860px) {

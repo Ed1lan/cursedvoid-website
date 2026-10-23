@@ -78,20 +78,35 @@ function renderVersion(version) {
 
   var list = el("ul", "version__changes");
   version.changes.forEach(function (change) {
-    var item = el("li", "change change--" + change.type);
-    item.appendChild(el("span", "change__type", change.type));
-    var text = el("div", "change__text", change.text);
-    if (change.details && change.details.length) {
-      var details = el("ul", "change__details");
-      change.details.forEach(function (d) { details.appendChild(el("li", "", d)); });
-      text.appendChild(details);
-    }
-    (change.images || []).forEach(function (src) { text.appendChild(image(src, change.text)); });
-    item.appendChild(text);
-    list.appendChild(item);
+    list.appendChild(change.group ? renderGroup(change) : renderChange(change));
   });
   section.appendChild(list);
   return section;
+}
+
+function renderChange(change) {
+  var item = el("li", "change change--" + change.type);
+  item.appendChild(el("span", "change__type", change.type));
+  var text = el("div", "change__text", change.text);
+  if (change.details && change.details.length) {
+    var details = el("ul", "change__details");
+    change.details.forEach(function (d) { details.appendChild(el("li", "", d)); });
+    text.appendChild(details);
+  }
+  (change.images || []).forEach(function (src) { text.appendChild(image(src, change.text)); });
+  item.appendChild(text);
+  return item;
+}
+
+// A heading with the changes that belong to it (e.g. one new item)
+function renderGroup(group) {
+  var item = el("li", "change-group");
+  item.appendChild(el("h4", "change-group__title", group.group));
+  (group.images || []).forEach(function (src) { item.appendChild(image(src, group.group)); });
+  var list = el("ul", "change-group__changes");
+  group.changes.forEach(function (change) { list.appendChild(renderChange(change)); });
+  item.appendChild(list);
+  return item;
 }
 
 function renderDownload(curse) {
