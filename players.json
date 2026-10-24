@@ -768,7 +768,7 @@
     "player-icon": "Heads/Yoban-headshot.png",
     "dead": true,
     "death-clip": "https://x.com/YobanLive/status/2114056784398733567?s=20",
-    "death-text": "Died from falling",
+    "death-text": "Stepped on Poisoned Bramble",
     "player-image": "AliveImage/Yoban_Alive_Player.png",
     "socials": {
       "youtube": "https://www.youtube.com/@Yoban"
