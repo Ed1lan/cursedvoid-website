@@ -538,7 +538,7 @@
   {
     "name": "Owel",
     "player-icon": "Heads/Owel-headshot.png",
-    "dead": false,
+    "dead": true,
     "death-clip": "",
     "death-text": "",
     "player-image": "AliveImage/Owel_Alive_Player.png",
@@ -766,7 +766,7 @@
   {
     "name": "Yoban",
     "player-icon": "Heads/Yoban-headshot.png",
-    "dead": false,
+    "dead": true,
     "death-clip": "",
     "death-text": "",
     "player-image": "AliveImage/Yoban_Alive_Player.png",
