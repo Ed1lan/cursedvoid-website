@@ -2,7 +2,82 @@
   "curses": [
     {
       "order": 1,
-      "released": false
+      "released": true,
+      "id": "twilight",
+      "name": "Twilight",
+      "summary": "",
+      "date": "2026-10-24T18:00:00+02:00",
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2026-10-24T18:00:00+02:00",
+          "title": "",
+          "notes": "",
+          "changes": [
+            {
+              "type": "added",
+              "text": "When a player dies it gets banned automatically"
+            },
+            {
+              "type": "added",
+              "text": "The twilight of the void awakens for 30 accumulative minutes when a player dies"
+            },
+            {
+              "type": "added",
+              "text": "When a player dies it drops its head",
+              "details": [
+                "The head can be claimed by the first to pick it up from the body",
+                "The owner of a head can give it to other players if they decide to"
+              ]
+            },
+            {
+              "type": "added",
+              "text": "Every second spent in the forgotten temple has a 0.01% chance to instantly kill you"
+            },
+            {
+              "group": "Gaia's Blessing Potion",
+              "changes": [
+                {
+                  "type": "added",
+                  "text": "Has been unlocked! It is considered a special item",
+                  "details": [
+                    "Heals you instantly 20% of your max health",
+                    "Grants 25% defense for 10 seconds",
+                    "Grants 30% movement speed for 15 seconds",
+                    "Grants 50% stamina regeneration for 15 seconds",
+                    "Heals you 20% max health over 10 seconds"
+                  ]
+                },
+                {
+                  "type": "added",
+                  "text": "Can be obtained completing the Coffer quest in the Guttering Hollows"
+                },
+                {
+                  "type": "added",
+                  "text": "Does not have cooldown"
+                }
+              ]
+            },
+            {
+              "group": "Performance changes",
+              "changes": [
+                {
+                  "type": "changed",
+                  "text": "Items merge radius is increased from 2 to 6"
+                },
+                {
+                  "type": "changed",
+                  "text": "Items despawn in 180 seconds"
+                },
+                {
+                  "type": "changed",
+                  "text": "Items in the Guttering Hollows despawn in 90 seconds"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "order": 2,
