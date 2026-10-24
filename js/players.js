@@ -23,6 +23,7 @@ var ovName = document.getElementById("ov-name");
 var ovSocials = document.getElementById("ov-socials");
 var ovDeath = document.getElementById("ov-death");
 var ovDeathText = document.getElementById("ov-death-text");
+var ovDeathLink = document.getElementById("ov-death-link");
 
 // Gets the username from a profile URL, ignoring extra paths such as /live:
 //   "https://www.youtube.com/@edilan/live" -> "@edilan"
@@ -139,7 +140,16 @@ function openPlayer(player) {
 
   if (player.dead) {
     ovDeathText.textContent = player["death-text"] || "Eliminated";
-    ovDeath.href = player["death-clip"] || "#";
+    // Link to the clip only when there is one
+    var clip = (player["death-clip"] || "").trim();
+    if (clip) {
+      ovDeath.href = clip;
+      ovDeathLink.textContent = "SEE HOW IT HAPPENED →";
+    } else {
+      ovDeath.removeAttribute("href");
+      ovDeathLink.textContent = "NO CLIP AVAILABLE";
+    }
+    ovDeath.classList.toggle("death--no-clip", !clip);
     ovDeath.hidden = false;
   } else {
     ovDeath.hidden = true;

@@ -507,6 +507,11 @@ img { display: block; max-width: 100%; }
 .death__link { display: block; margin-top: .4rem; color: var(--text); font-size: clamp(.9rem, 1.2vw, 1.4rem); letter-spacing: .03em; }
 .death:hover { transform: translateX(6px); }
 .death:hover .death__link { color: var(--red); }
+/* No clip: plain text, not a link */
+.death--no-clip { cursor: default; }
+.death--no-clip:hover { transform: none; }
+.death--no-clip .death__link,
+.death--no-clip:hover .death__link { color: var(--text); opacity: .6; }
 
 .overlay__close {
   position: absolute;

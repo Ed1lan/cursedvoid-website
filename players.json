@@ -767,7 +767,7 @@
     "name": "Yoban",
     "player-icon": "Heads/Yoban-headshot.png",
     "dead": true,
-    "death-clip": "",
+    "death-clip": "https://x.com/YobanLive/status/2114056784398733567?s=20",
     "death-text": "Died from falling",
     "player-image": "AliveImage/Yoban_Alive_Player.png",
     "socials": {
