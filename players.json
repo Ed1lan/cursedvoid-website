@@ -51,7 +51,7 @@
     "name": "Cabe",
     "player-icon": "Heads/Cabe-headshot.png",
     "dead": true,
-    "death-clip": "",
+    "death-clip": "https://x.com/Cabeisgone/status/2114067572601823570?s=20",
     "death-text": "Died by Goblin",
     "player-image": "AliveImage/Cabe_Alive_Player.png",
     "socials": {
