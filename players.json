@@ -690,7 +690,7 @@
     "name": "Starky",
     "player-icon": "Heads/Starky-headshot.png",
     "dead": true,
-    "death-clip": "",
+    "death-clip": "https://www.twitch.tv/starkyoficial/clip/IntelligentSmilingManateeJonCarnage-HbP1sapvOsBqzaNs",
     "death-text": "Died from falling",
     "player-image": "AliveImage/Starky_Alive_Player.png",
     "socials": {
