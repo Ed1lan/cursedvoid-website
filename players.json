@@ -349,9 +349,9 @@
   {
     "name": "Madcow",
     "player-icon": "Heads/Madcow-headshot.png",
-    "dead": false,
-    "death-clip": "",
-    "death-text": "",
+    "dead": true,
+    "death-clip": "https://x.com/cursedvoidhytl/status/2114425315632017413?s=20",
+    "death-text": "Died by Outlander Berserker",
     "player-image": "AliveImage/Madcow_Alive_Player.png",
     "socials": {
       "youtube": "https://www.youtube.com/@MadcowTV/live",
