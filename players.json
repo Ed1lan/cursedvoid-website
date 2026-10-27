@@ -261,9 +261,9 @@
   {
     "name": "Ikari",
     "player-icon": "Heads/Ikari-headshot.png",
-    "dead": false,
-    "death-clip": "",
-    "death-text": "",
+    "dead": true,
+    "death-clip": "https://www.twitch.tv/ikarifish/clip/JollyHedonisticAniseNinjaGrumpy-Po2wQ022a-cLoi1I",
+    "death-text": "Died by Void Fiend",
     "player-image": "AliveImage/Ikari_Alive_Player.png",
     "socials": {
       "youtube": "https://www.youtube.com/@Ikarichi/live",
