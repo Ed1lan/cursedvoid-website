@@ -223,9 +223,9 @@
   {
     "name": "Hugo",
     "player-icon": "Heads/Hugo-headshot.png",
-    "dead": false,
-    "death-clip": "",
-    "death-text": "",
+    "dead": true,
+    "death-clip": "https://x.com/HugoTrork/status/2115106140128227553?s=20",
+    "death-text": "Died by Skeleton Ranger",
     "player-image": "AliveImage/Hugo_Alive_Player.png",
     "socials": {
       "youtube": "https://www.youtube.com/@hugotrork/live",
