@@ -725,7 +725,7 @@
     }
   },
   {
-    "name": "CursdBirth",
+    "name": "TheCursd",
     "player-icon": "Heads/TheCursd-headshot.png",
     "dead": false,
     "death-clip": "",
