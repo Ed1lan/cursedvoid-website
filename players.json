@@ -400,9 +400,9 @@
   {
     "name": "Miyue",
     "player-icon": "Heads/miyue-headshot.png",
-    "dead": false,
+    "dead": true,
     "death-clip": "",
-    "death-text": "",
+    "death-text": "Died from falling",
     "player-image": "AliveImage/Miyue_Alive_Player.png",
     "full-image": true,
     "socials": {
