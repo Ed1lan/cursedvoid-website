@@ -75,9 +75,9 @@
   {
     "name": "Chayzur",
     "player-icon": "Heads/Chayzur-headshot.png",
-    "dead": false,
-    "death-clip": "",
-    "death-text": "",
+    "dead": true,
+    "death-clip": "https://x.com/cursedvoidhytl/status/2114931626274693343?s=20",
+    "death-text": "Died from falling",
     "player-image": "AliveImage/Chayzur_Alive_Player.png",
     "socials": {
       "youtube": "https://www.youtube.com/@Chayzur/live",
@@ -715,9 +715,9 @@
   {
     "name": "Taf",
     "player-icon": "Heads/Taf-headshot.png",
-    "dead": false,
-    "death-clip": "",
-    "death-text": "",
+    "dead": true,
+    "death-clip": "https://x.com/cursedvoidhytl/status/2114932220674658386?s=20",
+    "death-text": "Died from falling",
     "player-image": "AliveImage/Taf_Alive_Player.png",
     "socials": {
       "twitch": "https://www.twitch.tv/tafthepenguin",
