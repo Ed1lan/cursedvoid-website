@@ -125,9 +125,9 @@
   {
     "name": "Dwarf",
     "player-icon": "Heads/Dwarf-headshot.png",
-    "dead": false,
+    "dead": true,
     "death-clip": "",
-    "death-text": "",
+    "death-text": "Died by Voidtaken Goblin",
     "player-image": "AliveImage/Dwarf_Alive_Player.png",
     "socials": {
       "x": "https://x.com/JackGamesFTW"
