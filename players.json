@@ -112,9 +112,9 @@
   {
     "name": "Draacoun",
     "player-icon": "Heads/Draacoun-headshot.png",
-    "dead": false,
+    "dead": true,
     "death-clip": "",
-    "death-text": "",
+    "death-text": "Died from falling",
     "player-image": "AliveImage/Draacoun_Alive_Player.png",
     "socials": {
       "youtube": "https://www.youtube.com/@Draacoun/live",
