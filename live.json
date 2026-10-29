@@ -1,13 +1,23 @@
 {
-  "checked": "2026-10-29T19:30:04+00:00",
+  "checked": "2026-10-29T19:38:59+00:00",
   "live": {
+    "Cytrus": [
+      "twitch"
+    ],
     "Hutz": [
       "youtube"
     ],
+    "Lordimass": [
+      "twitch"
+    ],
     "OhRisk": [
-      "youtube"
+      "youtube",
+      "twitch"
     ],
     "Renlay": [
+      "twitch"
+    ],
+    "Silo": [
       "twitch"
     ]
   }
