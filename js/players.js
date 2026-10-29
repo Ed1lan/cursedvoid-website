@@ -2,6 +2,10 @@
 var PLAYERS_PATH = "Assets/Players/";
 // Minimum grid slots (unused ones are shown empty)
 var MIN_SLOTS = 50;
+// live.json is ignored when older than this (the checker's computer may be off)
+var LIVE_MAX_AGE = 40 * 60 * 1000;
+// Player name -> platforms they are live on, e.g. { "Edilan": ["twitch"] }
+var liveNow = {};
 
 // Social network icons (inline SVG, color = currentColor)
 var ICONS = {
@@ -67,6 +71,21 @@ function stampTilt(name) {
   return hash % 2 ? angle : -angle;
 }
 
+// "LIVE" badge with the icons of the platforms they are streaming on
+function liveBadge(platforms) {
+  var badge = document.createElement("span");
+  badge.className = "live-badge";
+  ["youtube", "twitch"].forEach(function (platform) {
+    if (platforms.indexOf(platform) === -1) return;
+    var icon = document.createElement("span");
+    icon.className = "live-badge__icon";
+    icon.innerHTML = ICONS[platform];
+    badge.appendChild(icon);
+  });
+  badge.appendChild(document.createTextNode("LIVE"));
+  return badge;
+}
+
 function renderGrid(players) {
   grid.innerHTML = "";
 
@@ -81,6 +100,12 @@ function renderGrid(players) {
     img.src = PLAYERS_PATH + player["player-icon"];
     img.alt = player.name;
     tile.appendChild(img);
+
+    var platforms = liveNow[player.name];
+    if (platforms && platforms.length && !player.dead) {
+      tile.classList.add("tile--live");
+      tile.appendChild(liveBadge(platforms));
+    }
 
     if (player.dead) {
       var stamp = document.createElement("span");
@@ -191,9 +216,18 @@ document.addEventListener("keydown", function (e) {
   if (e.key === "Escape") closePlayer();
 });
 
+// Live status is optional: if live.json is missing or old, nobody is shown live
+var loadLive = fetch("live.json", { cache: "no-cache" })
+  .then(function (r) { return r.ok ? r.json() : null; })
+  .then(function (data) {
+    var checked = data && Date.parse(data.checked);
+    if (checked && Date.now() - checked < LIVE_MAX_AGE) liveNow = data.live || {};
+  })
+  .catch(function () {});
+
 fetch("players.json", { cache: "no-cache" })
   .then(function (r) { return r.json(); })
-  .then(renderGrid)
+  .then(function (players) { return loadLive.then(function () { renderGrid(players); }); })
   .catch(function () {
     grid.innerHTML = '<p class="players__msg">Could not load players.json. Open the site from a web server (not file://).</p>';
   });
