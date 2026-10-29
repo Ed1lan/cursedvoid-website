@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-29T21:30:41+00:00",
+  "checked": "2026-10-29T21:45:41+00:00",
   "live": {
     "Hutz": [
       "youtube"
@@ -12,6 +12,10 @@
     ],
     "NandaPlay": [
       "youtube"
+    ],
+    "Nitr0": [
+      "youtube",
+      "twitch"
     ],
     "OhRisk": [
       "youtube",
