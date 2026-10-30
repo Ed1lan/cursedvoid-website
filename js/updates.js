@@ -62,10 +62,34 @@ function renderGrid(curses) {
       card.appendChild(el("span", "curse__meta", meta + "  →"));
     } else {
       card.appendChild(el("span", "curse__lock", "Coming soon"));
+      var release = curse.date ? new Date(curse.date).getTime() : NaN;
+      if (!isNaN(release)) {
+        var timer = el("span", "curse__timer");
+        timer.dataset.release = release;
+        card.appendChild(timer);
+        // The first locked curse is the next one to come out
+        if (!grid.querySelector(".curse--next")) card.classList.add("curse--next");
+      }
     }
     grid.appendChild(card);
   });
+  tick();
 }
+
+// Countdown on the locked curses, updated every second
+function pad(n) { return (n < 10 ? "0" : "") + n; }
+
+function tick() {
+  var now = Date.now();
+  grid.querySelectorAll(".curse__timer").forEach(function (timer) {
+    var left = Math.floor((Number(timer.dataset.release) - now) / 1000);
+    if (left <= 0) { timer.textContent = "Any moment now"; return; }
+    var days = Math.floor(left / 86400);
+    timer.textContent = (days ? days + "d " : "") + pad(Math.floor(left / 3600) % 24) + "h " +
+      pad(Math.floor(left / 60) % 60) + "m " + pad(left % 60) + "s";
+  });
+}
+setInterval(tick, 1000);
 
 function renderVersion(version) {
   var section = el("section", "version");

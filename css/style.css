@@ -764,6 +764,15 @@ button.curse:hover .curse__meta { color: var(--magenta); opacity: 1; }
   letter-spacing: .25em;
   text-transform: uppercase;
 }
+.curse__timer {
+  font-size: 1.05rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  font-variant-numeric: tabular-nums;
+}
+/* The next curse to come out stands out from the other locked ones */
+.curse--next { opacity: .85; }
+.curse--next .curse__timer { color: var(--magenta); }
 
 /* Changelog panel slides in from the right */
 .changelog {

@@ -81,43 +81,53 @@
     },
     {
       "order": 2,
-      "released": false
+      "released": false,
+      "date": "2026-10-31T00:00:00+01:00"
     },
     {
       "order": 3,
-      "released": false
+      "released": false,
+      "date": "2026-11-07T00:00:00+01:00"
     },
     {
       "order": 4,
-      "released": false
+      "released": false,
+      "date": "2026-11-14T00:00:00+01:00"
     },
     {
       "order": 5,
-      "released": false
+      "released": false,
+      "date": "2026-11-21T00:00:00+01:00"
     },
     {
       "order": 6,
-      "released": false
+      "released": false,
+      "date": "2026-11-28T00:00:00+01:00"
     },
     {
       "order": 7,
-      "released": false
+      "released": false,
+      "date": "2026-12-05T00:00:00+01:00"
     },
     {
       "order": 8,
-      "released": false
+      "released": false,
+      "date": "2026-12-12T00:00:00+01:00"
     },
     {
       "order": 9,
-      "released": false
+      "released": false,
+      "date": "2026-12-19T00:00:00+01:00"
     },
     {
       "order": 10,
-      "released": false
+      "released": false,
+      "date": "2026-12-26T00:00:00+01:00"
     },
     {
       "order": 11,
-      "released": false
+      "released": false,
+      "date": "2027-01-02T00:00:00+01:00"
     }
   ]
 }
