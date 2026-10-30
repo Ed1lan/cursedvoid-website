@@ -1,6 +1,9 @@
 {
-  "checked": "2026-10-30T20:30:45+00:00",
+  "checked": "2026-10-30T20:45:44+00:00",
   "live": {
+    "MelodicalBuild": [
+      "twitch"
+    ],
     "NandaPlay": [
       "youtube"
     ],
