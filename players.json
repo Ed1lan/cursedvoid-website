@@ -678,9 +678,9 @@
   {
     "name": "Silo",
     "player-icon": "Heads/Silo-headshot.png",
-    "dead": false,
-    "death-clip": "",
-    "death-text": "",
+    "dead": true,
+    "death-clip": "https://x.com/cursedvoidhytl/status/2116297013574668589?a=hq9DvQverA-RATIQrvI&s=20",
+    "death-text": "Died by Goblin Burner",
     "player-image": "AliveImage/SiloMagma_Alive_Player.png",
     "socials": {
       "youtube": "https://www.youtube.com/@SiloMagma/live",
