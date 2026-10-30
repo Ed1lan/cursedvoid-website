@@ -81,8 +81,123 @@
     },
     {
       "order": 2,
-      "released": false,
-      "date": "2026-10-31T00:00:00+01:00"
+      "released": true,
+      "id": "misery",
+      "name": "Misery",
+      "summary": "",
+      "date": "2026-10-31T00:00:00+01:00",
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2026-10-31T00:00:00+01:00",
+          "title": "",
+          "notes": "",
+          "changes": [
+            {
+              "type": "changed",
+              "text": "Now the max entity amount is doubled"
+            },
+            {
+              "type": "changed",
+              "text": "Now entities spawn twice as fast"
+            },
+            {
+              "type": "changed",
+              "text": "Now entities spawn in flocks double the size"
+            },
+            {
+              "type": "changed",
+              "text": "Now creatures of the void spawn at night in the Echo of Orbis"
+            },
+            {
+              "type": "changed",
+              "text": "Now the void essence cost of special seed bags in the Alchemist Bench has been doubled"
+            },
+            {
+              "type": "changed",
+              "text": "Now Mushees can spawn in Zone 1",
+              "details": [
+                "They are neutral"
+              ]
+            },
+            {
+              "type": "removed",
+              "text": "Now Fragments and Ancient Gateways from the Arcanist Workbench can no longer be crafted"
+            },
+            {
+              "group": "Amulet of Abundance",
+              "changes": [
+                {
+                  "type": "added",
+                  "text": "The Amulet of Abundance has been unlocked!",
+                  "details": [
+                    "The amulet is considered a special item"
+                  ]
+                },
+                {
+                  "type": "added",
+                  "text": "Can be crafted in the Goblin Lab",
+                  "details": [
+                    "The compressor needs to be repaired first",
+                    "5 Runestone Shards",
+                    "3 Void Hearts",
+                    "50 Void Crystals",
+                    "15 Greater Life Essences"
+                  ]
+                },
+                {
+                  "type": "added",
+                  "text": "Consuming the amulet will break the Curse of Misery",
+                  "details": [
+                    "The Curse of Misery deals 5 physical damage per second"
+                  ]
+                },
+                {
+                  "type": "added",
+                  "text": "The curse will take effect next week"
+                }
+              ]
+            },
+            {
+              "group": "Goblins, Kweebecs and Spiders",
+              "changes": [
+                {
+                  "type": "changed",
+                  "text": "Now any goblin, kweebec and spider spawns with 2 random effects from this list",
+                  "details": [
+                    "Bless of Power 5: x2.25 damage",
+                    "Bless of Speed 5: +350% speed",
+                    "Bless of Vitality 5: x2 max health",
+                    "Bless of Regeneration 2: 10% max HP / 5 seconds",
+                    "Bless of Protection 2: 10% damage reduction",
+                    "Bless of Fire: fire immunity",
+                    "Curse of Slowness: 50% movement reduction",
+                    "Curse of Goliath 2: x2 size",
+                    "Curse of the Diminute 2: -50% size"
+                  ]
+                }
+              ]
+            },
+            {
+              "group": "Sheep",
+              "changes": [
+                {
+                  "type": "changed",
+                  "text": "Now sheep are aggressive and explode when near a player",
+                  "details": [
+                    "The explosion will replace some affected blocks with White Cloth instead of dealing damage to them",
+                    "Chests and benches are not affected"
+                  ]
+                },
+                {
+                  "type": "changed",
+                  "text": "Now sheep spawn in more zones and caves"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "order": 3,
