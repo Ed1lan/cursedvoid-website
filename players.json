@@ -376,9 +376,9 @@
   {
     "name": "Mazeriio",
     "player-icon": "Heads/Mazeriio-headshot.png",
-    "dead": false,
-    "death-clip": "",
-    "death-text": "",
+    "dead": true,
+    "death-clip": "https://x.com/cursedvoidhytl/status/2116512788071772641?a=pKZDAsxzUKvfZ3CZ7ZY&s=20",
+    "death-text": "Died by Undead Pig",
     "player-image": "AliveImage/Mazeriio_Alive_Player.png",
     "socials": {
       "youtube": "https://youtube.com/@Mazeriio/live",
