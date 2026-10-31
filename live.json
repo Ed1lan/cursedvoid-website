@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-31T17:30:41+00:00",
+  "checked": "2026-10-31T17:45:40+00:00",
   "live": {
     "Cytrus": [
       "twitch"
@@ -7,6 +7,9 @@
     "Edilan": [
       "youtube",
       "twitch"
+    ],
+    "Nerwi": [
+      "youtube"
     ]
   }
 }
