@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-01T20:30:39+00:00",
+  "checked": "2026-11-01T20:45:39+00:00",
   "live": {
     "Gamelord": [
       "youtube"
@@ -9,6 +9,9 @@
     ],
     "Pixel": [
       "youtube"
+    ],
+    "Renlay": [
+      "twitch"
     ]
   }
 }
