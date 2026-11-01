@@ -325,9 +325,9 @@
   {
     "name": "Lordimass",
     "player-icon": "Heads/Lordimass-headshot.png",
-    "dead": false,
-    "death-clip": "",
-    "death-text": "",
+    "dead": true,
+    "death-clip": "https://x.com/cursedvoidhytl/status/2116891448184299827?a=YPybN3C125P2DqhJDq4&s=20",
+    "death-text": "Died by Burnt Skeleton Alchemist",
     "player-image": "AliveImage/Lordimass_Alive_Player.png",
     "socials": {
       "youtube": "https://youtube.com/@lordimass/live",
@@ -576,9 +576,9 @@
   {
     "name": "Preston",
     "player-icon": "Heads/Preston-headshot.png",
-    "dead": false,
+    "dead": true,
     "death-clip": "",
-    "death-text": "",
+    "death-text": "Died by Burnt Skeleton Alchemist",
     "player-image": "AliveImage/Preston_Alive_Player.png",
     "socials": {
       "youtube": "https://www.youtube.com/@OrbisArchitect/live",
