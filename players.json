@@ -488,9 +488,9 @@
   {
     "name": "Oatman5000",
     "player-icon": "Heads/Oatman5000-headshot.png",
-    "dead": false,
+    "dead": true,
     "death-clip": "",
-    "death-text": "",
+    "death-text": "Died by Snapdragon",
     "player-image": "AliveImage/Oatman5000_Alive_Player.png",
     "socials": {
       "youtube": "https://youtube.com/@oatman5000/live",
