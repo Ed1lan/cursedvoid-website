@@ -1,4 +1,12 @@
 {
-  "checked": "2026-11-02T06:52:03+00:00",
-  "live": {}
+  "checked": "2026-11-02T16:15:42+00:00",
+  "live": {
+    "Cytrus": [
+      "twitch"
+    ],
+    "Kaupenjoe": [
+      "youtube",
+      "twitch"
+    ]
+  }
 }
