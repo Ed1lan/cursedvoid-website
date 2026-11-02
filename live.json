@@ -1,14 +1,11 @@
 {
-  "checked": "2026-11-02T17:45:39+00:00",
+  "checked": "2026-11-02T18:00:40+00:00",
   "live": {
     "Cytrus": [
       "twitch"
     ],
     "Edilan": [
       "youtube",
-      "twitch"
-    ],
-    "Kaupenjoe": [
       "twitch"
     ]
   }
