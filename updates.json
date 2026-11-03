@@ -77,7 +77,11 @@
             }
           ]
         }
-      ]
+      ],
+      "download": {
+        "url": "https://www.curseforge.com/hytale/mods/the-curse-of-the-void-twilight",
+        "date": "2026-10-31T18:00:00+01:00"
+      }
     },
     {
       "order": 2,
