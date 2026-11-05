@@ -1,16 +1,9 @@
 {
-  "checked": "2026-11-05T16:00:37+00:00",
+  "checked": "2026-11-05T22:45:39+00:00",
   "live": {
-    "Aemilius": [
+    "Hytro": [
       "youtube",
       "twitch"
-    ],
-    "Edilan": [
-      "youtube",
-      "twitch"
-    ],
-    "Pixel": [
-      "youtube"
     ]
   }
 }
