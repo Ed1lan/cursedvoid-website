@@ -1,11 +1,16 @@
 {
-  "checked": "2026-11-06T22:45:35+00:00",
+  "checked": "2026-11-06T23:00:34+00:00",
   "live": {
     "Aemilius": [
-      "youtube"
+      "youtube",
+      "twitch"
     ],
     "Hutz": [
       "youtube"
+    ],
+    "Hytro": [
+      "youtube",
+      "twitch"
     ],
     "NandaPlay": [
       "youtube"
