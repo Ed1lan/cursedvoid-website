@@ -1,9 +1,6 @@
 {
-  "checked": "2026-11-06T18:00:36+00:00",
+  "checked": "2026-11-06T18:15:36+00:00",
   "live": {
-    "Cytrus": [
-      "twitch"
-    ],
     "Edilan": [
       "youtube",
       "twitch"
@@ -15,7 +12,8 @@
       "youtube"
     ],
     "OhRisk": [
-      "youtube"
+      "youtube",
+      "twitch"
     ],
     "Renlay": [
       "twitch"
