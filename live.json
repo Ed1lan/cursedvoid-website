@@ -1,17 +1,11 @@
 {
-  "checked": "2026-11-06T20:30:36+00:00",
+  "checked": "2026-11-06T20:45:36+00:00",
   "live": {
-    "Gamelord": [
-      "youtube"
-    ],
     "Hutz": [
       "youtube"
     ],
     "NandaPlay": [
       "youtube"
-    ],
-    "Renlay": [
-      "twitch"
     ]
   }
 }
