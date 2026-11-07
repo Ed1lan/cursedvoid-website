@@ -201,12 +201,185 @@
             }
           ]
         }
-      ]
+      ],
+      "download": {
+        "url": "https://www.curseforge.com/hytale/mods/the-curse-of-the-void-misery",
+        "date": "2026-11-07T00:00:00+01:00"
+      }
     },
     {
       "order": 3,
-      "released": false,
-      "date": "2026-11-07T00:00:00+01:00"
+      "released": true,
+      "id": "ashes",
+      "name": "Ashes",
+      "summary": "",
+      "date": "2026-11-07T00:00:00+01:00",
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2026-11-07T00:00:00+01:00",
+          "title": "",
+          "notes": "",
+          "changes": [
+            {
+              "type": "changed",
+              "text": "Now the Twilight of the Void lasts for an hour"
+            },
+            {
+              "type": "changed",
+              "text": "Now every enemy spawned during the Twilight of the Void has Bless of Vitality 5"
+            },
+            {
+              "type": "changed",
+              "text": "Now Black Piranhas spawn in more places"
+            },
+            {
+              "type": "changed",
+              "text": "Now ocean and void creatures spawn more often"
+            },
+            {
+              "type": "changed",
+              "text": "Now arrows are crafted with Scrap and sticks"
+            },
+            {
+              "type": "added",
+              "text": "Sheep now have 5 different colors"
+            },
+            {
+              "group": "Amulet of Rebirth",
+              "changes": [
+                {
+                  "type": "added",
+                  "text": "The Amulet of Rebirth has been unlocked!",
+                  "details": [
+                    "The amulet is considered a special item"
+                  ]
+                },
+                {
+                  "type": "added",
+                  "text": "Can be dropped by a sheep with a 5% chance"
+                },
+                {
+                  "type": "added",
+                  "text": "Consuming the amulet will break the Curse of Ashes",
+                  "details": [
+                    "The Curse of Ashes deals 10 fire damage per second"
+                  ]
+                },
+                {
+                  "type": "added",
+                  "text": "The curse will take effect next week"
+                }
+              ]
+            },
+            {
+              "group": "White Sheep",
+              "changes": [
+                {
+                  "type": "changed",
+                  "text": "White sheep have an explosion radius of 6"
+                },
+                {
+                  "type": "changed",
+                  "text": "White sheep have a base power of 50 physical damage"
+                },
+                {
+                  "type": "changed",
+                  "text": "White Cloth placed by the explosion will blow up after 3 seconds"
+                },
+                {
+                  "type": "changed",
+                  "text": "White Cloth has an explosion radius of 6"
+                },
+                {
+                  "type": "changed",
+                  "text": "White Cloth has a base power of 25 physical damage"
+                }
+              ]
+            },
+            {
+              "group": "Red Sheep",
+              "changes": [
+                {
+                  "type": "added",
+                  "text": "Red sheep have an explosion radius of 12"
+                },
+                {
+                  "type": "added",
+                  "text": "Red sheep don't deal damage when exploding"
+                },
+                {
+                  "type": "added",
+                  "text": "The explosion sets you on fire for 10 seconds, dealing a total of 80 fire damage"
+                },
+                {
+                  "type": "added",
+                  "text": "Water turns off the fire"
+                }
+              ]
+            },
+            {
+              "group": "Green Sheep",
+              "changes": [
+                {
+                  "type": "added",
+                  "text": "Green sheep have an explosion radius of 12"
+                },
+                {
+                  "type": "added",
+                  "text": "Green sheep don't deal damage when exploding"
+                },
+                {
+                  "type": "added",
+                  "text": "The explosion applies 15 seconds of poison, dealing a total of 50 poison damage"
+                },
+                {
+                  "type": "added",
+                  "text": "Antidote cures and gives immunity to the poison"
+                }
+              ]
+            },
+            {
+              "group": "Cyan Sheep",
+              "changes": [
+                {
+                  "type": "added",
+                  "text": "Cyan sheep have an explosion radius of 12"
+                },
+                {
+                  "type": "added",
+                  "text": "Cyan sheep don't deal damage when exploding"
+                },
+                {
+                  "type": "added",
+                  "text": "The explosion applies 50% movement reduction for 15 seconds"
+                }
+              ]
+            },
+            {
+              "group": "Black Sheep",
+              "changes": [
+                {
+                  "type": "added",
+                  "text": "Black sheep explode with 5 times more power than the white sheep"
+                },
+                {
+                  "type": "added",
+                  "text": "Black sheep have an explosion radius of 24"
+                },
+                {
+                  "type": "added",
+                  "text": "Black sheep have a base power of 200 physical damage"
+                },
+                {
+                  "type": "added",
+                  "text": "Black sheep take 1.5 seconds to explode"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "order": 4,
