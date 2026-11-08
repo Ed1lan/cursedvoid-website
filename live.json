@@ -1,9 +1,6 @@
 {
-  "checked": "2026-11-08T19:45:35+00:00",
+  "checked": "2026-11-08T20:00:36+00:00",
   "live": {
-    "Cytrus": [
-      "twitch"
-    ],
     "Gamelord": [
       "youtube"
     ],
@@ -12,6 +9,9 @@
     ],
     "NandaPlay": [
       "youtube"
+    ],
+    "Rrinkss": [
+      "twitch"
     ]
   }
 }
