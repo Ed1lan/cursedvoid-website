@@ -600,9 +600,9 @@
   {
     "name": "Redjagoon",
     "player-icon": "Heads/RedJagoon-headshot.png",
-    "dead": false,
-    "death-clip": "",
-    "death-text": "",
+    "dead": true,
+    "death-clip": "https://www.youtube.com/shorts/8jc9jxOuTtU",
+    "death-text": "Consumed by the Curse of Misery",
     "player-image": "AliveImage/Redjagoon_Alive_Player.png",
     "socials": {
       "youtube": "https://www.youtube.com/@RedJagoon/live",
@@ -728,9 +728,9 @@
   {
     "name": "TheCursd",
     "player-icon": "Heads/TheCursd-headshot.png",
-    "dead": false,
-    "death-clip": "",
-    "death-text": "",
+    "dead": true,
+    "death-clip": "https://x.com/cursedvoidhytl/status/2119550475255283988?a=KiMjfaHCGCBDP-jjHBI&s=20",
+    "death-text": "Consumed by the Curse of Misery",
     "player-image": "AliveImage/Cursdbirth_Alive_Player.png",
     "socials": {
       "youtube": "https://www.youtube.com/@CursdPlays",
