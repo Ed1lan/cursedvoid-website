@@ -1,4 +1,12 @@
 {
-  "checked": "2026-11-09T01:00:29+00:00",
-  "live": {}
+  "checked": "2026-11-09T23:30:28+00:00",
+  "live": {
+    "Aemilius": [
+      "youtube"
+    ],
+    "Hytro": [
+      "youtube",
+      "twitch"
+    ]
+  }
 }
