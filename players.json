@@ -150,9 +150,9 @@
   {
     "name": "Emi",
     "player-icon": "Heads/emi-headshot.png",
-    "dead": false,
+    "dead": true,
     "death-clip": "",
-    "death-text": "",
+    "death-text": "Died by Explosive White Cloth",
     "player-image": "AliveImage/Emi_Alive_Player.png",
     "socials": {
       "youtube": "https://www.youtube.com/@zymymar/live",
