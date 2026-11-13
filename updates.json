@@ -379,12 +379,232 @@
             }
           ]
         }
-      ]
+      ],
+      "download": {
+        "url": "https://www.curseforge.com/hytale/mods/the-curse-of-the-void-ashes",
+        "date": "2026-11-14T00:00:00+01:00"
+      }
     },
     {
       "order": 4,
-      "released": false,
-      "date": "2026-11-14T00:00:00+01:00"
+      "released": true,
+      "id": "nightmares",
+      "name": "Nightmares",
+      "summary": "",
+      "date": "2026-11-14T00:00:00+01:00",
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2026-11-14T00:00:00+01:00",
+          "title": "",
+          "notes": "",
+          "changes": [
+            {
+              "type": "added",
+              "text": "Night can no longer be skipped"
+            },
+            {
+              "type": "changed",
+              "text": "Now the Twilight of the Void lasts 3 hours"
+            },
+            {
+              "type": "changed",
+              "text": "Now creatures of the void and rats have the same effects as goblins, kweebecs and spiders"
+            },
+            {
+              "type": "added",
+              "text": "Now Ghouls can spawn in Zone 4 and deep caves"
+            },
+            {
+              "type": "added",
+              "text": "Now Emberwolves can spawn in deep caves"
+            },
+            {
+              "type": "changed",
+              "text": "Now Cave Rex spawns more often in the jungle"
+            },
+            {
+              "type": "changed",
+              "text": "Now the Praetorian Skeleton spawns more often in Zones 1 and 4"
+            },
+            {
+              "type": "removed",
+              "text": "Skeletons no longer have drops"
+            },
+            {
+              "type": "changed",
+              "text": "Every fish is now a Black Piranha"
+            },
+            {
+              "type": "changed",
+              "text": "All chickens are now undead chickens"
+            },
+            {
+              "type": "changed",
+              "text": "All cows are now undead cows"
+            },
+            {
+              "type": "changed",
+              "text": "All pigs are now undead pigs"
+            },
+            {
+              "type": "changed",
+              "text": "Now every ore has only a 50% chance to drop its material"
+            },
+            {
+              "type": "changed",
+              "text": "Now Cave Rex has the following effects",
+              "details": [
+                "Bless of Protection 2: 10% damage reduction",
+                "Bless of Power 3: x1.75 damage"
+              ]
+            },
+            {
+              "group": "Mithril Armor",
+              "changes": [
+                {
+                  "type": "added",
+                  "text": "Mithril Armor has been unlocked!",
+                  "details": [
+                    "Every piece is considered a special item"
+                  ]
+                },
+                {
+                  "type": "added",
+                  "text": "Mithril Helmet: can be obtained by killing Eyes of the Void with a 5% chance",
+                  "details": [
+                    "+25 max HP",
+                    "10% physical resistance",
+                    "10% projectile resistance",
+                    "10% poison resistance",
+                    "10% fire resistance"
+                  ]
+                },
+                {
+                  "type": "added",
+                  "text": "Mithril Chestplate: can be obtained by killing Outlander Priests / Sorcerers with a 5% chance",
+                  "details": [
+                    "+25 max HP",
+                    "14% physical resistance",
+                    "14% projectile resistance",
+                    "10% signature damage"
+                  ]
+                },
+                {
+                  "type": "added",
+                  "text": "Mithril Gauntlets: can be obtained by killing Scarak Fighters with a 5% chance",
+                  "details": [
+                    "+25 max HP",
+                    "12% physical resistance",
+                    "12% projectile resistance",
+                    "10% base attack damage"
+                  ]
+                },
+                {
+                  "type": "added",
+                  "text": "Mithril Leggings: can be obtained by killing Cave Rexes with a 10% chance",
+                  "details": [
+                    "+25 max HP",
+                    "11% physical resistance",
+                    "11% projectile resistance",
+                    "20% fall resistance"
+                  ]
+                }
+              ]
+            },
+            {
+              "group": "Outlanders",
+              "changes": [
+                {
+                  "type": "changed",
+                  "text": "Now Outlander Peons are sorcerers or priests"
+                },
+                {
+                  "type": "changed",
+                  "text": "Now Outlander Priests and Sorcerers have",
+                  "details": [
+                    "Bless of Protection 2: 10% damage reduction"
+                  ]
+                },
+                {
+                  "type": "changed",
+                  "text": "Now Outlander Priests and Sorcerers summon Outlander Brutes"
+                },
+                {
+                  "type": "changed",
+                  "text": "Now Outlander Brutes have",
+                  "details": [
+                    "Bless of Protection 2: 10% damage reduction",
+                    "Bless of Power 4: x2 damage"
+                  ]
+                },
+                {
+                  "type": "changed",
+                  "text": "Now Outlander Brutes can have 1 random effect from this list",
+                  "details": [
+                    "Curse of Goliath: x1.5 size",
+                    "Curse of Diminute 2: x0.5 size"
+                  ]
+                }
+              ]
+            },
+            {
+              "group": "Scaraks",
+              "changes": [
+                {
+                  "type": "changed",
+                  "text": "Now Scarak eggs spawn Scarak Fighters"
+                },
+                {
+                  "type": "changed",
+                  "text": "Now all Scaraks have",
+                  "details": [
+                    "Bless of Protection 3: 15% damage reduction",
+                    "Bless of Regeneration 3: 15% max HP / 5 seconds",
+                    "Bless of Power 2: x1.5 damage"
+                  ]
+                },
+                {
+                  "type": "changed",
+                  "text": "Now the Scarak Broodmother has",
+                  "details": [
+                    "Bless of Protection 10: 50% damage reduction",
+                    "Bless of Regeneration 10: 50% max HP / 5 seconds",
+                    "Bless of Vitality 10: x3 max health"
+                  ]
+                }
+              ]
+            },
+            {
+              "group": "Dreamcatcher Amulet",
+              "changes": [
+                {
+                  "type": "added",
+                  "text": "The Dreamcatcher Amulet has been unlocked!",
+                  "details": [
+                    "The amulet is considered a special item"
+                  ]
+                },
+                {
+                  "type": "added",
+                  "text": "Can be dropped by a Black Piranha with a 5% chance"
+                },
+                {
+                  "type": "added",
+                  "text": "Consuming the amulet will break the Curse of Nightmares",
+                  "details": [
+                    "The Curse of Nightmares applies infinite blindness"
+                  ]
+                },
+                {
+                  "type": "added",
+                  "text": "The curse will take effect next week"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "order": 5,
