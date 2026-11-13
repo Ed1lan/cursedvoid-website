@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-13T19:45:26+00:00",
+  "checked": "2026-11-13T20:00:26+00:00",
   "live": {
     "Edilan": [
       "youtube",
@@ -15,7 +15,8 @@
       "youtube"
     ],
     "Nitr0": [
-      "youtube"
+      "youtube",
+      "twitch"
     ]
   }
 }
