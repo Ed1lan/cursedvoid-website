@@ -638,9 +638,9 @@
   {
     "name": "Rossiels",
     "player-icon": "Heads/Rossiels-headshot.png",
-    "dead": false,
-    "death-clip": "",
-    "death-text": "",
+    "dead": true,
+    "death-clip": "https://x.com/cursedvoidhytl/status/2121532621226197388?a=wwrjwnaGrTgd6A1Az14&s=20",
+    "death-text": "Consumed by the Curse of Ashes",
     "player-image": "AliveImage/Rossiels_Alive_Player.png",
     "socials": {
       "youtube": "https://www.youtube.com/@Rossiels/live",
@@ -652,9 +652,9 @@
   {
     "name": "Rrinkss",
     "player-icon": "Heads/Rrinkss-headshot.png",
-    "dead": false,
+    "dead": true,
     "death-clip": "",
-    "death-text": "",
+    "death-text": "Consumed by the Curse of Ashes",
     "player-image": "AliveImage/Rrinkss_Alive_Player.png",
     "socials": {
       "twitch": "https://www.twitch.tv/rrinkss",
