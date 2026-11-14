@@ -1,11 +1,12 @@
 {
-  "checked": "2026-11-14T19:15:22+00:00",
+  "checked": "2026-11-14T19:30:22+00:00",
   "live": {
     "Cytrus": [
       "twitch"
     ],
     "Kerp": [
-      "youtube"
+      "youtube",
+      "twitch"
     ],
     "Nerwi": [
       "youtube"
