@@ -526,9 +526,9 @@
   {
     "name": "Oscar",
     "player-icon": "Heads/Oscar-headshot.png",
-    "dead": false,
+    "dead": true,
     "death-clip": "",
-    "death-text": "",
+    "death-text": "Consumed by the Curse of Ashes",
     "player-image": "AliveImage/Oscar_Alive_Player.png",
     "full-image": true,
     "socials": {
