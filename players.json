@@ -551,9 +551,9 @@
   {
     "name": "PacificByte",
     "player-icon": "Heads/PacificByte-headshot.png",
-    "dead": false,
-    "death-clip": "",
-    "death-text": "",
+    "dead": true,
+    "death-clip": "https://x.com/cursedvoidhytl/status/2121705201040237012?a=vF2zQFzvvce6mZHngLw&s=20",
+    "death-text": "Died from falling",
     "player-image": "AliveImage/PacificByte_Alive_Player.png",
     "socials": {
       "x": "https://x.com/PacificKB"
