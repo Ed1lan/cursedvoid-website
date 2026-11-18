@@ -1,8 +1,9 @@
 {
-  "checked": "2026-11-18T00:15:20+00:00",
+  "checked": "2026-11-18T00:30:20+00:00",
   "live": {
     "Aemilius": [
-      "youtube"
+      "youtube",
+      "twitch"
     ]
   }
 }
