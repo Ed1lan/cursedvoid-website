@@ -1,16 +1,10 @@
 {
-  "checked": "2026-11-20T19:15:22+00:00",
+  "checked": "2026-11-20T19:30:23+00:00",
   "live": {
     "Cytrus": [
       "twitch"
     ],
     "Gamelord": [
-      "youtube"
-    ],
-    "Orex": [
-      "youtube"
-    ],
-    "Pixel": [
       "youtube"
     ]
   }
