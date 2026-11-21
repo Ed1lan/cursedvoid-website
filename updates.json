@@ -173,7 +173,7 @@
                     "Bless of Speed 5: +350% speed",
                     "Bless of Vitality 5: x2 max health",
                     "Bless of Regeneration 2: 10% max HP / 5 seconds",
-                    "Bless of Protection 3: 15% damage reduction",
+                    "Bless of Protection 2: 10% damage reduction",
                     "Bless of Fire: fire immunity",
                     "Curse of Slowness: 50% movement reduction",
                     "Curse of Goliath 2: x2 size",
@@ -604,12 +604,100 @@
             }
           ]
         }
-      ]
+      ],
+      "download": {
+        "url": "https://www.curseforge.com/hytale/mods/the-curse-of-the-void-nightmares",
+        "date": "2026-11-21T00:00:00+01:00"
+      }
     },
     {
       "order": 5,
-      "released": false,
-      "date": "2026-11-21T00:00:00+01:00"
+      "released": true,
+      "id": "blood",
+      "name": "Blood",
+      "summary": "",
+      "date": "2026-11-21T00:00:00+01:00",
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2026-11-21T00:00:00+01:00",
+          "title": "",
+          "notes": "",
+          "changes": [
+            {
+              "type": "changed",
+              "text": "Now every crop has a 25% chance to give its drop"
+            },
+            {
+              "type": "changed",
+              "text": "Now Goblin Lobber's bombs are thrown with more strength, break blocks, explode faster and deal twice the damage"
+            },
+            {
+              "type": "changed",
+              "text": "The Repair Kit has a new recipe"
+            },
+            {
+              "type": "changed",
+              "text": "The Goblin Repair Kit requires a Repair Kit to be crafted"
+            },
+            {
+              "type": "removed",
+              "text": "Every armor under Mithril tier no longer gives bonus stats or effects"
+            },
+            {
+              "group": "Amulet of Sacrifice",
+              "changes": [
+                {
+                  "type": "added",
+                  "text": "The Amulet of Sacrifice has been unlocked!",
+                  "details": [
+                    "The amulet is considered a special item"
+                  ]
+                },
+                {
+                  "type": "added",
+                  "text": "Can be obtained by salvaging a piece of Mithril armor"
+                },
+                {
+                  "type": "added",
+                  "text": "Consuming the amulet will break the Curse of Blood",
+                  "details": [
+                    "The Curse of Blood deals 5 physical damage per second and reduces the armor protection by 100%"
+                  ]
+                },
+                {
+                  "type": "added",
+                  "text": "The curse will take effect next week"
+                }
+              ]
+            },
+            {
+              "group": "Random Effects",
+              "changes": [
+                {
+                  "type": "changed",
+                  "text": "Now any goblin, kweebec, spider, rat and creature of the void spawns with 3 random effects from this list",
+                  "details": [
+                    "Bless of Power 5: x2.25 damage",
+                    "Bless of Speed 5: +350% speed",
+                    "Bless of Vitality 5: x2 max health",
+                    "Bless of Regeneration 2: 10% max HP / 5 seconds",
+                    "Bless of Protection 3: 15% damage reduction",
+                    "Bless of Fire: fire immunity",
+                    "Curse of Slowness: 50% movement reduction",
+                    "Curse of Goliath 2: x2 size",
+                    "Curse of the Diminute 2: -50% size"
+                  ]
+                },
+                {
+                  "type": "changed",
+                  "text": "Some entities are adjusted to this list as explained in previous weeks"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "order": 6,
