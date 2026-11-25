@@ -38,9 +38,9 @@
   {
     "name": "BrokenMiniFridge",
     "player-icon": "Heads/BrokenMiniFridge-headshot.png",
-    "dead": false,
-    "death-clip": "",
-    "death-text": "",
+    "dead": true,
+    "death-clip": "https://x.com/cursedvoidhytl/status/2125688167391019018?a=Fkpxad87-P7i5M3X8rw&s=20",
+    "death-text": "Died from falling",
     "player-image": "AliveImage/BrokenMiniFridge_Alive_Player.png",
     "socials": {
       "youtube": "https://www.youtube.com/@Brokenminifridge/live",
